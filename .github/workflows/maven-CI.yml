@@ -11,7 +11,7 @@ jobs:
 
     steps:
 
-      - name: Hacemos checkut del repo de Git
+      - name: Hacemos checkout del repo de Git
         uses: actions/checkout@v2
       - name: Set up JDK 8
         uses: actions/setup-java@v1
