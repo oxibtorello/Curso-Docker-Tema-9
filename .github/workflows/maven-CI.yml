@@ -10,7 +10,6 @@ on:
       runs-on: ubuntu-latest
 
       steps:
-
         - name: Hacemos Checkuot del repo de Git
         uses: actions/checkout@v2
 
@@ -23,4 +22,4 @@ on:
         run: mvn -B test
 
         - name: Build project with Maven
-        run: mvn -B package 
+        run: mvn -B package
